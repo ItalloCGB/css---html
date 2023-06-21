@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.subtitulo {
+    color: rgb(236, 20, 218);
+}
+#titulo{
+    font-family: serif;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: rgba(235, 195, 65, 0.966);
+    text-align: center;
+    border-radius: 3%;
+    box-shadow: 3px 3px 3px;
+}
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: rgba(238, 224, 180, 0.966);
+    text-align: center;
+    border-radius: 3%;
+    box-shadow: 3px 3px 3px;
+}
+p{
+    text-indent: 10px;
+    text-align: justify;
+}
