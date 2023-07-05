@@ -23,8 +23,13 @@ body {
 }
 
 header {
-  background-color: black;
-  color: white;
+  background-image: url("../imagens/pngwing.com.png");
+  background-position: center center;
+  background-size: 60%;
+  background-attachment: cover;
+  background-repeat: no-repeat;
+  background-color: darkgrey;
+  color: green;
   text-align: center;
 }
 
@@ -67,15 +72,27 @@ section.normal {
 section.imagem {
   background-color: dimgray;
   color: white;
+  box-shadow: inset 4px 4px 8px 0px black;
+  background-attachment: fixed;
 }
 
 section.imagem > p {
-  padding: 3px;
   display: inline-block;
-  border: 2px solid rgba(0, 0, 0, 0.25);
-  border-radius: 4px;
+  padding: 3px;
   background-color: rgba(0, 0, 0, 0.253);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.255);
+  text-shadow: 1px 1px 0px black;
+}
+
+section#img001 {
+  background-image: url("../imagens/background001.jpg");
+  background-position: right center;
+  background-size: cover;
+}
+
+section#img002 {
+  background-image: url("../imagens/background002.jpg");
+  background-size: cover;
 }
 
 footer {
@@ -83,4 +100,10 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
+}
+footer a {
+  font-size: 1vw;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
 }
